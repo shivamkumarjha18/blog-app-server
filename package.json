@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon Backend/server.js",
+    "dev": "nodemon server.js",
     "build": "npm install && npm install --prefix Frontend/vite-project && npm run build --prefix Frontend/vite-project",
     "start": "nodemon Backend/server.js"
   },
